@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+
+/*Inicio*/
+header{
+    height: 100px;
+    background: rgb(130, 179, 179);
+    padding: 0 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body h2{
+    text-align: center;
+    color: rgb(76, 51, 71);
+    font-size: 20px;
+    margin: 15px 0px;   
+}
+
+body p{
+    color: rgb(51, 24, 45);
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Banner*/
+
+#banner{
+    padding: 0 50px;
+    background-image:url(./imagenes/Inicio1.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner::before{
+    content: '';
+    background:rgba(77, 77, 92, 0.5) ;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+}
+
+.contenido-banner h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.contenido-banner h3 span{
+    font-weight: 600;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(130, 179, 179);
+}
+
+
+/*formulario*/
+
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgb(0, 76, 76);
+    border-radius: 10px;
+}   
+
+.formulario h2{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    color: rgb(122, 230, 230);
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.email{
+    width: 100%;
+    border: 1px solid rgb(76, 51, 71);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: wheat;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contraseña{
+    width: 100%;
+    border: 1px solid rgb(76, 51, 71);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: wheat;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.Nombre{
+    width: 100%;
+    border: 1px solid rgb(76, 51, 71);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: wheat;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boton{
+    width: 100%;
+    height: 40px;
+    background: rgb(173, 10, 137);
+    border: none;
+    color: rgb(128, 111, 124);
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+.boton:hover{
+    background: rgb(11, 142, 194);
+    color: rgb(128, 111, 124);
+}
